@@ -15,29 +15,18 @@
 
     <ul class="nav justify-content-end">
       <li class="nav-item">
-        <a class="nav-link" href="index.html" aria-current="page" href="#">Home</a>
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="projects.html">Projects</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="About1.hmtl">About</a>
+        <a class="nav-link" href="#">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="Links.html">Links</a>
+        <a class="nav-link disabled">Links</a>
       </li>
     </ul>
-    <br>
-    <div>
-      <style>
-        div {
-      position: fixed;
-      top: 20%;
-      left: 40%;
-        }</style>
-    <h1>This is title</h1>
-    </div>
-
 
     <!-- Optional JavaScript; choose one of the two! -->
 

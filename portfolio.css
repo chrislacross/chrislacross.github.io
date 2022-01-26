@@ -1,0 +1,53 @@
+body{
+  margin:0;
+  padding:0;
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+
+.wrapper .icon-bar a {
+  display: block; /* Make the links appear below each other instead of side-by-side */
+  text-align: center; /* Center-align text */
+  padding: 16px; /* Add some padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font-size */
+}
+
+.wrapper .icon-bar a:hover {
+  background-color: green; /* Add a hover color */
+}
+
+.active {
+  background-color:green; /* Add an active/current color */
+}
+
+.wrapper{
+    display: flex;
+    position: relative;
+    margin-left: 200px;
+}
+
+
+.wrapper .icon-bar{
+    position: fixed;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background: purple;
+    padding: 30px 0;
+
+}
+.wrapper .main_content{
+    padding: 20px;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.wrapper .info{
+    color: royalblue;
+}
+
+.clcpic{
+  height: 200px;
+}
