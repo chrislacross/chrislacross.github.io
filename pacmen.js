@@ -49,7 +49,7 @@ function update() {
     item.newimg.src = pacArray[item.position.direction][mouth];
   });
  
-  setTimeout(update, 20);
+  setTimeout(update, 50);
 }
 
 function checkCollisions(item) {
