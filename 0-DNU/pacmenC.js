@@ -3,14 +3,13 @@ const pacArray = [
   ["PacMan1.png", "PacMan2.png"],
   ["PacMan3.png", "PacMan4.png"],
 ];
-var mouth = 0;
+var direction = 0;
 const pacMen = [];
 
 function setToRandom(scale) {
   return {
     x: Math.random() * scale,
     y: Math.random() * scale,
-    direction: 0
   };
 }
 // Factory to make a PacMan
@@ -44,12 +43,8 @@ function update() {
 
     item.newimg.style.left = item.position.x;
     item.newimg.style.top = item.position.y;
-
-    mouth = (mouth + 1) % 2
-    item.newimg.src = pacArray[item.position.direction][mouth];
   });
- 
-  setTimeout(update, 50);
+  setTimeout(update, 20);
 }
 
 function checkCollisions(item) {
@@ -57,12 +52,7 @@ function checkCollisions(item) {
     item.position.x + item.velocity.x + item.newimg.width > window.innerWidth ||
     item.position.x + item.velocity.x < 0
   )
-    { 
     item.velocity.x = -item.velocity.x;
-    item.position.direction = (item.position.direction + 1) % 2;
-   
-    // item.newimg.src = pacArray[(direction + 1) % 2][mouth];
-    }
   if (
     item.position.y + item.velocity.y + item.newimg.height >
       window.innerHeight ||

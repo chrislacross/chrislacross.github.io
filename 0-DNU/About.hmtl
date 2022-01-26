@@ -7,46 +7,27 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="portcss.css" rel="stylesheet">
-    <title>Links</title>
+
+    <title>Hello, world!</title>
   </head>
   <body>
     <h1>Hello, world!</h1>
 
-    
     <ul class="nav justify-content-end">
       <li class="nav-item">
-        <a class="nav-link" href="index.html" aria-current="page" href="#">Home</a>
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="projects.html">Projects</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="Links.html">Links</a>
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled">Links</a>
       </li>
     </ul>
-    <br>
-    <div>
 
-      <div>
-      <hr class="rounded">
-
-      <div class="bodyItems">
-        <h1>Check out the links below!</h1>
-        <hr class="rounded">
-
-     <h2>Repository List</h2>
-     <p><a href="https://github.com/chrislacross/pacmen-exercise" target="_blank">PacMen Exercise</a></p>
-     <p><a href="https://github.com/chrislacross/eye-exercise.git" target="_blank">Eye Exercise</a></p>
-     <p><a href="https://github.com/chrislacross/real-time-bus-tracker-exercise.git" target="_blank">Real Time Bus Tracker Exercise</a></p>
-    </div>
-    <hr class="rounded">
-    <h2>Profile Links</h2>
-    <p><a href="https://www.linkedin.com/in/chris-la-cross-88735814b/" target="_blank">LinkedIn</a></p>
-    <p><a href="https://rgvprequal.com/" target="_blank">La Cross Mortgage</a></p>
-    <p><a href="https://www.timeburst.com/" target="_blank">Timeburst</a></p>
-   </div>
-  </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
