@@ -1,6 +1,6 @@
 body{
     margin:0;
-    padding:20px;
+    padding:40px;
     overflow-x: hidden;
     font-family: sans-serif;
   }
@@ -25,4 +25,14 @@ body{
 
   .nav-item {
       color: gray;
+  }
+
+  .d-grid {
+    font: white;
+  }
+
+  .responsive-iframe-1 {
+    height: 300px;
+    width: 450px;
+
   }
